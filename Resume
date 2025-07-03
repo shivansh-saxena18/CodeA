@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swар');
+@import url('https://fonts.googleapis.com/css?family=Mukta:wght@200&display-swap');
+:root{
+--dardred: #6e3842;
+--lightred: #70323b;
+--white: #f2f2f4;
+--black: #010103;
+} 
+body{
+background: Linear-gradient(45deg, #782a38, #531d27);
+font-family: 'Mukta', sans-serif;
+}
+.resume{
+width: 700px;
+background: var(--white);
+margin: 50px auto;
+box-shadow: -22px -5px -49px -4px #000000c2;
+position: relative;
+}
+.clearfix{
+clear: both;
+}
+.left{
+width: 200px;
+float: left;
+padding: 25px;
+background: var(--lightred);
+}
+.right{
+width: 400px; float: left; text-align: center;
+}
+.profile{
+width: 100%;
+}
+h2{
+text-transform: uppercase;
+color: var(--dardred);
+background: var(--white);
+Letter-spacing: 15px;
+text-align: center;
+width: 221px;
+margin-left: -15px;
+padding-left: 9px;
+}
+.p1{
+color: #ddd;
+Line-height: 22px;
+Letter-spacing: 1px;
+font-size: 14px;
+}
+.skill-container{width: 100%; background: #be6b78;}
+ .skill{
+text-align: right;
+padding-top: 2px;
+padding-bottom: 2px;
+color: white;
+position: relative;
+}
+.skill::ater{
+content:'';
+position: absolute;    
+width: 15px;
+height: 15px;    
+background: var(--white);
+top: -6px;    
+border-radius: 10px;
+}
+.html{width: 90%; background-color: var(--white);}
+.css{width: 80%; background-color: var(--white);}
+.js{width: 85%; background-color: var(--white);}
+.cp{width: 80%; background-color: var(--white);}
+h1{
+font-size:50px;
+ line-height: 50px;
+font-weight: 100;
+ margin-bottom: 0;
+ margin-top: 50px;
+text-transform: uppercase;
+}
+.p2{
+text-transform: uppercase;
+font-weight: 400;
+margin: 0;
+font-size: 17px;
+}
+.head{
+text-transform: uppercase;
+color: var(--white);
+background: var(--dardred);    
+Letter-spacing: 10px;
+text-align: center;
+width: 250px;
+font-weight: 300;
+margin: 20px auto;
+} 
+h3{margin: 0px;}
+.p3{
+margin: 0 auto;
+Line-height: 20px;
+width: 260px;
+font-size: 14px;
+}
+.line{transform: rotatez(90deg); right: -413px; position: absolute; top: 355px;}
+.line li{
+List-style: none;
+float: left;
+padding: 20px 15px;
+border-bottom: 5px solid var(--dardred);
+text-transform: uppercase;
+font-size: 14px;
+position: relative;
+}
+.line li:nth-child(2):after{
+content: '';
+position: absolute;
+height: 35px;    
+width: 1px;
+background: var(--dardred);
+Left: 0;
+}
+.line li:nth-child(2):before{    
+content: '';
+position: absolute;
+height: 35px;
+width: 1px;
+background: var(--dardred);
+right: 0;
+}
+</style>
+</head>
+<body>
+    <div class="resume">
+        <div class="left">
+          <img src="shivansh.jpg" class="profile">
+          <h2>profile</h2>
+          <p class="p1"> "Aspiring Software Developer with a strong foundation in computer programming and application development."</p>
+          <br>
+          <h2>skills</h2>
+          <p class="p1">
+            HTML
+            <div class="skill-container">
+                <div class="skill html"></div>
+            </div>
+          </p>
+
+          <p class="p1">
+            CSS
+            <div class="skill-container">
+                <div class="skill css"></div>
+            </div>
+          </p>
+
+          <p class="p1">
+            JAVASCRIPT
+            <div class="skill-container">
+                <div class="skill js"></div>
+            </div>
+          </p>
+
+          <p class="p1">
+            C PROGRAMMING
+            <div class="skill-container">
+                <div class="skill cp"></div>
+            </div>
+          </p>
+           <br>
+        </div>
+        <div class="right">
+        <h1>shivansh<br><strong>Saxena</strong></h1>
+          <p class="p2">web and graphic developer</p>
+          <br>
+          <h2 class="head">Experience</h2>
+          <h3>web designer</h3>
+          <p class="p3">noida-2015</p>
+          <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+         
+         <h3>Graphic / Web Designer</h3>
+         <p class="p3">noida-2015</p>
+         <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <br>
+      <h2 class="head">Eduction</h2>
+      <h3>Bachelor of Computer Applications</h3>
+      <p class="p3">(2023-2026)</p>
+      <p class="p3">Invertis University,Bareilly </p>
+     <br>
+      <h3>CBSE Board</h3>
+      <p class="p3">XII (2023) with 68%</p>
+      <p class="p3">Siksha Bharti Senior Secondary School,Khatima,Uttrakhand </p>
+     <br>
+     <h3>CBSE Board</h3>
+     <p class="p3">X(2021) with 70%</p>
+     <p class="p3">Hind Public School,Khatima,Uttrakhand </p>
+  <ul class="line">
+      <li>+91 9412900534</li>
+      <li>shivanshnmtnmm@gmail.com</li>
+      <li>http://linkedin.com/in/shivansh-saxena-321637288</li>
+  </ul>
+        </div>
+        <div class="clearfix" >
+
+        </div>  
+    </div>
+</body>
+</html>
